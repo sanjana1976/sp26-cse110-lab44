@@ -1,0 +1,10 @@
+1. prints : values added:20
+
+since add is true the fi statment is executed. Result is set to 0 on line 5 then assigned 10+10=20 on line 7 so values added: 20 is the outpput.
+
+2. final result:20
+Since add was true the else return on line 11 is skipped so program skips to line 13. Result is still 20 in that scope hence why it is printed.
+
+3. Var ignores block statments like if for or while hence it can cause bugs
+you can refrence var variable before declaration wihtout an error, makign bugs hard to track.
+You can declare same var variable twice in same scope without error,this will  overwrite values
